@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import DigitalClock from "./components/Digitalclock";
+import ProfileContainer from "./components/Personcontainer";
+import Shift from "./components/Shift";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-hero-pattern xl:bg-cover xl:bg-bottom w-full h-full py-6 px-10 flex flex-col items-center overflow-hidden caret-transparent text-slate-700">
+      <Header />
+      <DigitalClock />
+      <Shift />
+      <ProfileContainer />
     </div>
   );
 }
