@@ -1,3 +1,5 @@
+![Thumbnail Website](./src/assets/thumbnail.png)
+
 # Getting Started with PNC Room Worker
 
 This project was bootstrapped with [Create React App].\
